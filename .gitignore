@@ -1,0 +1,15 @@
+# Dependencies & build output
+node_modules/
+dist/
+
+# Secrets – never commit real environment files
+.env
+.env.*
+!.env.example
+
+# Vercel / OS / editor
+.vercel/
+.DS_Store
+*.log
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+{
+  "name": "dr-madhu-saini-website",
+  "private": true,
+  "type": "module",
+  "description": "Website for Dr. Madhu Saini – React (client/), Express + MongoDB API (server/), deployed on Vercel.",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client"
+  }
+}
