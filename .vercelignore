@@ -1,0 +1,10 @@
+# Keep local secrets and build artefacts out of CLI uploads (Vercel builds from source).
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+node_modules
+**/node_modules
+**/dist
